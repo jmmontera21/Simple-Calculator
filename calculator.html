@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Calculator</title> 
+	<style> 
+		table { 
+			margin-left: auto; 
+			margin-right: auto; 
+            border-radius: 25px;
+            border-width: 4px;
+            padding: 15px;
+            padding-top: 25px;
+			background-color: rgba(0, 0, 0);
+			margin-top: 45px;
+		} 
+		
+		input[type="button"] { 
+			width: 130px; 
+			padding: 20px 40px; 
+			background-color: rgba(0, 0, 255, 0.6); 
+			color: white; 
+			font-size: 24px; 
+			font-weight: bold;  
+			border: groove; 
+			border-color:lightseagreen;
+			border-radius: 10px; 
+            border-width: 3px;
+		} 
+		
+		input[type="text"] { 
+			padding: 17px 10px; 
+			font-size: 30px; 
+			font-weight: bold; 
+			border: none; 
+			border-radius: 10px; 
+			background-color: rgb(221, 218, 218);
+			width: 94%;
+		} 
+	</style> 
+</head> 
+<body> 
+	<table id="calculator"> 
+		<tr> 
+			<td colspan="3"> 
+				<input style="color: black; margin-bottom: 10px; text-align: right; border: inset; border-width: 3px;" type="text" id="outcome"> 
+			</td> 
+			<td><input style="background-color: rgb(255, 0, 0, 0.900); padding-left: 33px; width: 90px; margin-bottom: 10px; border-color: orangered" type="button" value="C"></td> 
+		</tr> 
+
+		<tr> 
+			<td><input style="margin: 10px 0px;" type="button" value="1"></td> 
+			<td><input type="button" value="2"></td> 
+			<td><input type="button" value="3"></td> 
+			<td><input style="background-color: rgba(0, 128, 0, 0.850); padding-left: 40px; width: 90px; border-color: green" type="button" value="/"></td> 
+		</tr> 
+		<tr> 
+			<td><input style="margin: 10px 0px;" type="button" value="4"></td> 
+			<td><input type="button" value="5"></td> 
+			<td><input type="button" value="6"></td> 
+			<td><input style="background-color: rgba(0, 128, 0, 0.850); padding-left: 38px; width: 90px; border-color: green" type="button" value="*"></td> 
+		</tr> 
+		<tr> 
+			<td><input style="margin: 10px 0px;" type="button" value="7"></td> 
+			<td><input type="button" value="8"></td> 
+			<td><input type="button" value="9"></td> 
+			<td><input style="background-color: rgba(0, 128, 0, 0.850); padding-left: 38px; width: 90px; border-color: green" type="button" value="-"></td> 
+		</tr> 
+		<tr> 
+			<td><input style="margin: 10px 0px;" type="button" value="."></td> 
+			<td><input type="button" value="0"></td> 
+			<td><input style="background-color: rgb(255, 0, 0, 0.900); border-color: orangered" type="button" value="="></td> 
+			<td><input style="background-color: rgba(0, 128, 0, 0.850); padding-left: 35px; width: 90px; border-color: green" type="button" value="+"></td> 
+		</tr> 
+	</table> 
+</body> 
+</html> 
